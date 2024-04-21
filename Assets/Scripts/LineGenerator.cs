@@ -34,7 +34,6 @@ public class LineGenerator : MonoBehaviour
             {
                 inputPos = Input.mousePosition;
             }
-
             // Convert screen position to world position
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(inputPos);
             activeLine.UpdateLine(mousePos);
